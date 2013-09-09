@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <noscript>
+        <p>This page requires a javascript enable browser</p>
+    </noscript>
+    <script>
+        //Example 1
+        alert("Example 1");
+        var message = "Hello world";
+        if(message){
+            alert('Value is true');
+        }
+        //Example 2
+        alert("Example 2");
+        var a,b;
+        a=0.2;
+        b=0.2;
+        alert(a+b);
+        //Example 3
+        alert("Example 3");
+        var result = Number.MAX_VALUE+Number.MAX_VALUE;
+        alert(isFinite(result));
+        var result1=Number.MIN_VALUE+Number.MIN_VALUE;
+        alert(isFinite(result1));
+        //Example 4
+        alert("Example 4");
+        document.write(NaN==NaN,'<br>');
+        document.write(isNaN(NaN),'<br>');      //Result = true
+        document.write(isNaN(10),'<br>');       //Result = false
+        document.write(isNaN("10"),'<br>');     //Result = false (But "10" can be convert into number)
+        document.write(isNaN("blue"),'<br>');   //Result = true (Can not be converted into number)
+        document.write(isNaN(true),'<br>');     //Result = false
+        document.write(isNaN(false),'<br>');    //Result = false
+
+        //Example 5
+        alert("Example 5");
+        var num1 = Number("Hello");
+        document.writeln(num1,'<br>');
+        var num2 = Number("");
+        document.write(num2,'<br>');
+        var num3 = Number(true);
+        document.write(num3,'<br>');
+        var num4 = Number(4);
+        document.write(num4,'<br>');
+        var num5 = Number(null);
+        document.write(num5,'<br>');
+        var num6 = Number(undefined);
+        document.write(num6,'<br');
+        var num7 = Number("");
+        document.write(num7,'<br>');
+
+
+    </script>
+</body>
+</html>

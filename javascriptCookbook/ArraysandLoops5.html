@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 5 (Sorting an array 5.4)</title>
+    <script>
+        //Example 1
+        alert("Example 1");
+        var fruitArray = ['strawberry','apple','orange','banana','lime'];
+        alert(fruitArray.sort());
+        //Example 2
+        alert("Example 2");
+        alert("Sort in ascending order");
+        function compareNumber(a,b){
+            return a-b;
+        }
+        var numberArray = [13,2,31,4,5];
+        alert(numberArray.sort(compareNumber));
+        alert("Sort in descending order using reverse function")
+        alert(numberArray.reverse(compareNumber));
+        //Example 3
+        alert("Example 3");
+        alert("Sort in ascending order");
+        var numberArray1 = [13,2,31,4,5];
+        function compareNumber1(a,b){
+            for(var i=0;i<numberArray1.length;i++){
+                var temp;
+                if(a>b){
+                    temp = a;
+                    a = b;
+                    b = temp;
+                    return b;
+                }
+            }
+        }
+        alert(numberArray1.sort(compareNumber1));
+        //Example 4
+        alert("Example 4");
+        alert("Sort in descending order");
+        var numberArray2 = [5,4,2,13,31];
+        function compareNumber2(a,b){
+            var temp;
+            while(b>a){
+                temp = b;
+                b = a;
+                a = temp;
+                return a;
+            }
+        }
+        alert(numberArray2.sort(compareNumber2));
+        alert("Sort in ascending order using reverse function");
+        alert(numberArray2.reverse(compareNumber2));
+        //Example 5
+        alert("Example 5");
+        var numberArray3 = [90,100,23,43,36,57];
+        alert(numberArray3.reverse());
+    </script>
+</head>
+<body>
+
+</body>
+</html>

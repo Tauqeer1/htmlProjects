@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 2 (Adding Elements in the Array)</title>
+    <script type="text/javascript">
+        //var days = new Array();     //Empty array declare
+        //var days = [];              //Empty array declare
+
+
+        var days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+        alert(days[0]);
+        alert(days.length);
+        alert(days.length-1);
+        var i=0;
+        alert(days[i]);
+
+
+        //Adding items to an end of array  (Method 1)
+        var student = ['Student0','student1'];
+        student[3] = 'Student3';             //Method 1
+        student[2] = 'Student2';
+        alert(student[3]);
+        alert(student[2]);
+        alert(student.length);
+        //Adding items to an end of array (Method 2)
+        student[student.length]='student4';     //Method 2
+        alert(student.length);
+        //Adding items to an end of array (Method 3)
+        student.push("student5");
+        alert(student.length);
+        alert(student[5]);
+        //Adding items to the beginning of the array
+        student.unshift('StudentFirst');
+        alert(student.length);
+        alert(student[0]);
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

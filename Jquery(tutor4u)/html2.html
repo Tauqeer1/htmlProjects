@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jquery (Jquery selectors)</title>
+    <script src="jquery-2.0.3.min.js"></script>
+    <script src="Jquery2.js"></script>
+    <style type="text/css">
+        div >p ,p{
+            background-color: #ffc043;
+            font-size: 25px;
+        }
+        .multiple{
+            background-color: deeppink;
+            font-size: 25px;
+            border: solid;
+        }
+    </style>
+</head>
+<body>
+    <input class="testbutton" type="button" value="test" />
+
+    <div class="divClass">
+        <p class="multiple">
+            This is the <strong>First</strong> line of text.
+        </p>
+        <p>
+            This is the <strong>Second</strong> line of text.
+        </p>
+
+    </div>
+
+    <p id="third">
+        This is the <strong class="multiple">Third</strong> line of text.
+    </p>
+    <p>
+        This is the <strong class="multiple">Fourth</strong> line of text.
+    </p>
+
+    <p>
+        <a href="http:www.google.com">Google</a>
+    </p>
+</body>
+</html>

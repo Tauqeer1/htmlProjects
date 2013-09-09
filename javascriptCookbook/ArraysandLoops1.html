@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 5 (Introduction)</title>
+    <script>
+        //Example 1
+        alert("Example 1");
+        var object = new Array("value1","value2");
+        alert(typeof object);
+        var arrayLiteral = ["Value1","Value2","Value3"];
+        function fun(arrayLiteral){
+            for(var i=0;i<arrayLiteral.length;i++){
+                arrayLiteral[0]="Surprise!";
+            }
+        }
+        alert(arrayLiteral);
+        fun(arrayLiteral);
+        fun(object);
+        alert(arrayLiteral);
+        alert(object);
+
+        //Example 2
+        alert("Example 2");
+        var number = 23;
+
+        function function1(number){
+          number = 24;
+          alert(number);
+        }
+        function1(number);
+        alert(number);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 1</title>
+    <script>
+        var city = new String("PAKISTAN");
+        alert(city);
+        alert(typeof city);
+        var lowercase = city.toLowerCase();
+        alert(lowercase);
+        alert(typeof lowercase);
+        var city1 = String("India");
+        alert(typeof city1);
+        document.write(city.bold());
+        //Concatenation of two string
+
+        var string1 = "Hello";
+        var string2 = "world";
+        var string3 = string1 + " " +string2;
+        alert(string3);
+        var value1 = "apples";
+        value1 += " and oranges";
+        document.write(value1);
+
+        var strObject = new String('The value is');
+        alert(typeof  strObject);
+        var strLiteral = "a string";
+        alert(typeof strLiteral);
+        var string = strObject + strLiteral;
+        alert(string);
+        alert(typeof string);
+
+        //Comparison
+        var strName = prompt("What is your name? ","");
+        if(strName.toUpperCase()=="TAUQEER"){
+            alert("Congrats, You entered a correct name");
+        }
+        else{
+            alert("Sorry!! you entered a wrong name");
+        }
+
+        var stringObject = new String('Tauqeer');
+        var stringLiteral = "Tauqeer"
+        if(stringObject==stringLiteral){
+            alert('You entered a correct name');
+        }
+        else{
+            alert('You entered a wrong name');
+        }
+
+        var sone = "cat";
+        var stwo = "dog";
+        if(sone>stwo){
+            alert('Sone is greater than stwo');
+        }
+        else{
+            alert('sone is not greater than stwo');
+        }
+        var variable1 = "Cat";
+        var variable2 = "cat";
+        if(variable1>variable2){
+            alert('Cat is greater than cat');
+        }
+        else{
+            alert('Cat is less than cat');
+        }
+
+        var fruit1 = 'apple';
+        var fruit2 = 'grapes';
+        var i = fruit2.localeCompare(fruit2);
+        alert(i);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

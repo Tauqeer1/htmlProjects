@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript (Date Objects tutorial)</title>
+    <script type="text/javascript">
+        //Simple Clock
+       function printTime(){
+           var now = new Date();
+           var hours = now.getHours();
+           var minutes = now.getMinutes();
+           var seconds = now.getSeconds();
+           document.write(hours+":"+minutes+":"+seconds +"<br>");
+       }
+    setInterval("printTime()",1000);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

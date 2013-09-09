@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        //This is creating an objects
+        var person = new Object();
+        person.name = "Tauqeer";
+        person.age = 23;
+        person.job = "Software engineer";
+
+        person.sayName=function(){
+            alert(this.name);
+        }
+        //This is another method of creating objects by using object literal
+        var person ={
+            name:"Tauqeer ahmed",
+            age:20,
+            job:"Software engineer",
+
+            sayName:function(){
+                alert(this.name);
+            }
+        };
+        function createPerson(name,age,job){
+            this.name=name;
+            this.age=age;
+            this.job=job;
+            this.sayName=function(){
+                alert(this.name);
+            }
+        }
+        var per=new createPerson("Tauqeer",22,"Software engineer");
+        var per1=new  createPerson("Ahmed",23,"IT");
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

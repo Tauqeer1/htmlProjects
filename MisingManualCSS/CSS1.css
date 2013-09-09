@@ -1,0 +1,21 @@
+p:first-child{
+    background-color: orange;
+}
+body h1 {
+    background-color: palegoldenrod;
+}
+html p strong{
+    background-color: bisque;
+}
+strong:hover{
+    color: midnightblue;
+}
+p.tip:before{
+    content: "This is important paragraph!! ";
+}
+p.tip:after{
+    content: "This is the end of the important paragraph.";
+}
+
+
+

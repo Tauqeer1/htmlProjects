@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript (Array push ,reverse and sort)</title>
+    <script type="text/javascript">
+        var arr = new Array("firstElement","secondElement","thirdElement","fourthElement");
+        var string1 = arr.join();
+        alert(string1);
+        alert(arr[0]);
+        arr.reverse();      //Reverse the array
+        alert(arr[0]);
+        alert(arr.length);
+        arr.push("fifthElement");             //push in the array
+        alert(arr.length);
+        arr.push("sixthElement","seventhElement");
+        alert(arr.length);
+        var string2 = arr.join();       //Join the array element and represent as a string
+        alert(string2);
+        arr.sort();     //Sort the array by alphabetical order
+        var string3 = arr.join();
+        alert(string3);
+
+
+        var alphabets = new Array("A","B","C","D");
+        var str1 = alphabets.join();
+        alert(str1);
+        alphabets.reverse();                //Reverse the elements in the array
+        var str2 = alphabets.join();       //Join the arrays elements in the string
+        alert(str2);
+        alphabets.sort();
+        var str3 = alphabets.join();        //Sort by alphabetical order
+        alert(str3);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

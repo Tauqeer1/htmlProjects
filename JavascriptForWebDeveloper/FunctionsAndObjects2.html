@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script>
+        function displayInfo(args){
+            var output="";
+            if(typeof args.name == "string"){
+                output+="Name:" + args.name + "\n";
+            }
+            if(typeof  args.age == "number"){
+                output+="Age:"+args.age + "\n";
+            }
+            alert(output);
+        }
+        var person1 = {
+            name:"Tauqeer ahmed shakir",
+            age:20
+        };
+        displayInfo(person1);
+        displayInfo({
+            name:"Ahmed"
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

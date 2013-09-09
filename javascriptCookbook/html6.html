@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 2 (Testing the case insensitive substring matches 2.2)</title>
+    <script>
+        //Example 1
+        alert("Example 1");
+        var cookbookString = [];
+        cookbookString[0] = "Joe's Cooking book";
+        cookbookString[1] = "Sam's Cookbook";
+        cookbookString[2] = "Javascript CookBook";
+        cookbookString[3] = "Javascript cookbook";
+
+        //Search pattern
+        var pattern = /Cook.*Book/i;     // flag i = ignore case
+        for(var i=0;i<cookbookString.length;i++){
+            alert(cookbookString[i]+" "+pattern.test(cookbookString[i],i));
+        }
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

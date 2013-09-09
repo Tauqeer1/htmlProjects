@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 2 (Testing whether a substring exist)</title>
+    <script>
+        //Example 1
+        alert("Example 1");
+        var cookbookString = new Array();
+        cookbookString[0] = "Joe's Cooking Book";
+        cookbookString[1] = "Sam's Cookbook";
+        cookbookString[2] = "Javascript CookBook";
+        cookbookString[3] = "Javascript BookCook";
+
+        //search pattern
+        var pattern = /Cook.*Book/;
+        for(var i=0;i<cookbookString.length;i++){
+            document.write(cookbookString[i]+" "+pattern.test(cookbookString[i]),"<br/>");   //regular expression test method
+        }
+        //Example 2
+        alert("Example 2");
+
+        //var array = new Array("Joe's Cooking Book","Sam's Cookbook","Javascript CookBook","Javascript BookCook");
+        var array1 = ["Joe's Cooking Book","Sam's Cookbook","Javascript CookBook","Javascript BookCook"];
+        //search pattern
+        var pattern = /Cook.*Book/;
+        for(var i=0;i<array1.length;i++){
+            alert(array1[i]+" "+pattern.test(array1[i]));
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

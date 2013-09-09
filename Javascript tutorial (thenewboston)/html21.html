@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript (Accessing forms)</title>
+    <script type="text/javascript">
+
+    </script>
+</head>
+<body>
+    <form>
+        Username : <input type="text" />
+        Password : <input type="password" />
+                   <input type="submit" value="submit" />
+    </form>
+    <script type="text/javascript">
+        /*Javascript treat form as an array e.g the first
+        form is at index zero , second form is at
+        index one and so on or so far. */
+        var x = document.forms[0].length;
+        document.write(x);
+        alert(x);
+    </script>
+</body>
+</html>

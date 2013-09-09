@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 4 (Number object and number literal)</title>
+    <script>
+        //Example 1
+        alert("Example 1");
+        var num = 10;
+        alert(typeof num);
+        //Example 2
+        alert("Example 2");
+        var number = new Number(10);
+        alert(number);
+        alert(typeof number);
+        //Example 3
+        alert("Example 3");
+        var number1 = 10;
+        var number2 = new Number(10);
+        var number3 = number1*number2;
+        alert(number3);
+        alert(typeof number3);
+        //Example 4
+        alert("Example 4");
+        var num1 = .037654232;
+        alert(num1.toExponential());
+        //Example 5
+        alert("Example 5");
+        alert(Number.MAX_VALUE);
+        alert(Number.MIN_VALUE);
+        alert(Number.NEGATIVE_INFINITY);
+        alert(Number.POSITIVE_INFINITY);
+        //Example 6
+        alert("Example 6");
+        var topValue = Math.max(1,2);
+        alert(topValue);
+        var lowerValue = Math.min(1,2);
+        alert(lowerValue);
+        //Example 7
+        alert("Example 7");
+        var randomNumber = Math.random()*10;
+        alert(randomNumber);
+        var absolute = Math.abs(randomNumber);
+        alert(absolute);
+        var roundNumber = Math.round(absolute);
+        alert(roundNumber);
+    </script>
+</head>
+<body>
+
+</body>
+</html>

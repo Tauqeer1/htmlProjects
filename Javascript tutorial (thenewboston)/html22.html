@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript (Accessing form elements)</title>
+</head>
+<body>
+    <form>
+        Username : <input type="text" name="username" />
+        Password : <input type="password" name="password">
+                   <input type="submit" value="submit"/>
+    </form>
+    <form name="formFirst">
+        Username : <input type="text" name="username" />
+        Password : <input type="password" name="password" />
+                   <input type="submit" value="submit" />
+    </form>
+    <script type="text/javascript">
+        //First way to access form element  by form index and element index
+        alert("Accessing form element by form index and element index");
+        var x = document.forms[0].elements[0].name;
+        alert(x);
+        var y = document.forms[0].elements[1].name;
+        alert(y);
+        //Second way to access form  by form name and by element index
+        alert("Accessing form element by form name and element index");
+        var x = document.formFirst.elements[0].name;
+        alert(x);
+        var  x = document.formFirst.elements[1].name;
+        alert(x);
+        //Third way to access form element by form name and element name
+       alert("Accessing form element by form name and element name");
+        var a = document.formFirst.username.name;
+        alert(a);
+        var b = document.formFirst.password.name;
+        alert(b);
+
+    </script>
+</body>
+</html>

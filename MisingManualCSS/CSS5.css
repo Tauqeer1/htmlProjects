@@ -1,0 +1,9 @@
+p{                         /* specificity 1*/
+    background-color: blue;
+}
+.paragraph{                /* specificity 10*/
+    background-color: yellow;
+}
+#para{                     /* specificity 100*/
+    background-color: darkviolet;
+}

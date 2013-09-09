@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 2 (Tutorial---Writing to a webpage using arrays)</title>
+    <script type="text/javascript">
+        var authors = ['Author1','Author2','Author3','Author4'
+                        ,'Author5','Author6'];
+    </script>
+</head>
+<body>
+    <script type="text/javascript">
+
+        //Example 1
+        document.write('<p>The First author is <strong>'+authors[0]+'</strong></p>');
+        document.write('<p>The Last author is <strong>'+authors[authors.length-1]+'</strong></p>');
+        authors.unshift('author0');
+        document.write('<p>I almost forget <strong>'+authors[0]+'</strong></p>');
+
+
+
+    </script>
+
+</body>
+</html>

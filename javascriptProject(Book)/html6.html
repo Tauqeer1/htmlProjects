@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 3 (Loops and Arrays)</title>
+    <script type="text/javascript">
+        //Example 1
+        var luckyNumber = prompt("What is your lucky number ?","" );
+        luckyNumber = parseInt(luckyNumber);
+        while(isNaN(luckyNumber)){
+            luckyNumber = prompt('Please , tell me your lucky number','');
+        }
+
+        //Example 1
+
+        var number = 1;
+        while(number<=5){
+            document.write(number , '<br/>');
+            //number+=1;
+            //number=number+1;
+            number++;
+        }
+
+        //Example 3
+        var days =['Mon','tues','wed','thur','fri','sat','sun'];
+
+        var counter = 0;
+        while(counter<days.length){
+            document.write(days[counter] +',');
+        }
+    </script>
+</head>
+<body>
+
+</body>
+</html>

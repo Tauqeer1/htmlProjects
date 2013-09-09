@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 1</title>
+    <script>
+        //Example 1
+        alert('Example 1');
+        var string = 'My name is Tauqeer ahmed shakir';
+        var subString = 'Tauqeer';
+        var ivalue = string.indexOf(subString);
+        if(ivalue != -1){
+            alert('Substring exist');
+        }
+        //Example 2
+        alert('Example 2');
+        var testString = "This is my apple";
+        //var subStr = "apple";
+        //var indexValue = testString.indexOf(subStr);
+        var ivalue1 = testString.indexOf("apple",10);   //Second parameter describe at which index you start to search a sub string in a string
+        alert(ivalue1);
+
+        //Example 3
+        alert('Example 3');
+        var string1 = "Apple are very good for health";
+        var ivalue2 = string1.lastIndexOf("health");
+        alert(ivalue2);
+
+        //Example 4
+        alert('Example 4');
+
+        var string2 = 'Apple are red in color.Apple are very good for health .';
+        var ivalue3 = string2.indexOf("Apple");
+        var ivalue4 = string2.lastIndexOf("Apple");
+        alert(ivalue3);
+        alert(ivalue4);
+
+        //Example 5
+        alert('Example 5');
+        var sentence = "This is first sentence. This is a sentence with a list of items:cherries,oranges,apples and bananas.";
+        var start = sentence.indexOf(":");
+        var end = sentence.indexOf(".",start);
+
+        var list = sentence.substring(start+1,end);
+        alert(list);
+        var fruit = list.split(",");
+        alert(fruit);
+
+
+        //Example 6
+
+        alert('Example 6');
+        var mainSentence = "This is the main sentence. This is the second sentence , This is the third and most important sentence of the main sentence.";
+        var startSentence  = mainSentence.indexOf(",");
+        var endSentence = mainSentence.indexOf(".",startSentence);
+
+        var subSentence = mainSentence.substring(startSentence+1,endSentence);
+        alert(subSentence);
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

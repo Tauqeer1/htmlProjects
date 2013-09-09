@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript global and local variables</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var globalname ="Tauqeer ahmed shakir";
+
+        function function1(){
+            alert(globalname);
+            var localname = "Zohaib ahmed shakir";
+            alert(localname);
+        }
+        function1();
+        function function2(){
+            alert(globalname);
+            alert(localname);
+        }
+        function2();
+    </script>
+</body>
+</html>

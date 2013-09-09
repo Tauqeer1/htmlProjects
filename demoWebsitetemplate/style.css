@@ -1,0 +1,24 @@
+body{
+    background-image: url("abackground2.jpg");
+    color: indianred;
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+
+}
+.body{
+    margin: auto;
+    width: 70%;
+    clear: both;
+}
+.mainheader img{
+    width: 30%;
+    height: auto;
+    margin: 20px;
+}

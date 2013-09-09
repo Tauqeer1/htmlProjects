@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 1 (Breaking a Keyword into separate Keywords 1.7)</title>
+    <script>
+        window.onload = function(){
+            //Example 1
+             alert("Example 1");
+            //get keyword List
+            var keyWordList =  prompt("Enter keywords seperated by commas",""); //taking input
+
+            //use split to create array of keywords
+            var arrayList = keyWordList.split(","); //splitting  the keyword list at comma
+
+            //build result html
+            var resultString = "";
+            for(var i=0;i<arrayList.length;i++){
+                resultString+="keyword "+arrayList[i]+"<br/>";
+            }
+            //print out  to page
+            var blk = document.getElementById("result");
+            blk.innerHTML =  resultString ;
+
+
+            //Example 2
+            alert("Example 2");
+            //get keyword List
+            var keyWordList =  prompt("Enter keywords seperated by commas",""); //taking input
+
+            //use split to create array of keywords
+            var arrayList = keyWordList.split(",",2); //splitting  the keyword list at comma
+
+            //build result html
+            var resultString = "";
+            for(var i=0;i<arrayList.length;i++){
+                resultString+="keyword "+arrayList[i]+"<br/>";
+            }
+            //print out  to page
+            var blk = document.getElementById("result");
+            blk.innerHTML =  resultString ;
+
+
+
+            //Example 3
+            alert("Example 3");
+            //get keyword List
+            var keyWordList =  prompt("Enter keywords seperated by commas",""); //taking input
+
+            //use split to create array of keywords
+            var arrayList = keyWordList.split(""); //splitting  the keyword list at comma
+
+            //build result html
+            var resultString = "";
+            for(var i=0;i<arrayList.length;i++){
+                resultString+="keyword "+arrayList[i]+"<br/>";
+            }
+            //print out  to page
+            var blk = document.getElementById("result");
+            blk.innerHTML =  resultString ;
+
+
+            //Example 4
+            alert("Example 4");
+
+            var sentence = "This is one sentence. this is a sentence with a list of items: cherries , oranges , bananas , apples.";
+            var val = sentence.split(/:/);
+            alert(val[1].split(/\./)[0]);
+        }
+    </script>
+</head>
+<body>
+    <div id="result">
+    </div>
+</body>
+</html>

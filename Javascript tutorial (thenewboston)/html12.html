@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript (Objects tutorial 3 adding methods to our objects)</title>
+    <script type="text/javascript">
+        function student(name ,age ,currentfees){
+            this.name = name;
+            this.age = age;
+            this.currentfees = currentfees ;
+            this.feesLeft = dueFees;
+        }
+        function dueFees(){
+            var duefees = 5000 - this.currentfees;
+            return duefees;
+        }
+        var student1 = new student("Tauqeer ahmed", 21,3500);
+        var student2 = new student("Zohaib ahmed",24,2000);
+
+        alert("Student 1 info");
+        alert("Name "+student1.name);
+        alert("Age "+student1.age);
+        alert("Fees left "+student1.feesLeft());
+
+        alert("Student 2 info");
+        alert("Name "+student2.name);
+        alert("Age "+student2.age);
+        alert("Fees left "+student2.feesLeft());
+
+    </script>
+</head>
+<body>
+</body>
+</html>

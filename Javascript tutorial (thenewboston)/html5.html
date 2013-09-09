@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript Calling function from another function</title>
+</head>
+<body>
+    <script type="text/javascript">
+      /*  function function1(){
+            alert("This is first function");
+        }
+        function function2(){
+            alert("This is second function");
+        }
+        function start(){
+            alert("This is inside start function");
+            alert("Calling function 1 and 2 from here");
+            function1();
+            function2();
+        }
+        start();*/
+        function function1(){
+            alert("this is first function");
+            function2();
+
+        }
+        function function2(){
+            alert("This is second function");
+
+        }
+      function1();
+    </script>
+</body>
+</html>

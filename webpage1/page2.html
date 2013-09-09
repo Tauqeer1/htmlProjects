@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo website</title>
+    <style>
+
+        #coolMenu,#coolMenu ul{
+            list-style: none;
+        }
+        #coolMenu{
+            float: left;
+        }
+        #coolMenu>li{
+            float: left;
+        }
+
+        #coolMenu li a{
+            display: block;
+            height: 2em;
+            line-height: 2em;
+            padding: 0 1.5em;
+            text-decoration: none;
+        }
+        #coolMenu ul{
+            position: absolute;
+            display: none;
+            z-index: 999;
+
+        }
+        #coolMenu ul li a{
+            width: 80px;
+        }
+        #coolMenu li:hover ul{
+            display: block;
+        }
+        /*Main menu*/
+        #coolMenu{
+            font-family: arial;
+            font-size: 12px;
+            background: orangered;
+        }
+        #coolMenu >li>a{
+            color: yellow;
+            font-weight: bold;
+        }
+        #coolMenu>li:hover>a{
+            background-color: chocolate;
+            color: greenyellow;
+        }
+        /*Sub menu*/
+        #coolMenu ul{
+            background-color: coral;
+        }
+        #coolMenu ul li a{
+            color: darkgoldenrod;
+        }
+        #coolMenu ul li:hover a{
+            background: darksalmon;
+        }
+    </style>
+</head>
+<body>
+
+    <ul id="coolMenu">
+
+        <li>
+            <a href="#">Menu 1</a>
+            <ul>
+                <li><a href="#">Sub Menu 1</a></li>
+                <li><a href="#">Sub Menu 1</a></li>
+                <li><a href="#">Sub Menu 1</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Menu 2</a>
+            <ul>
+                <li><a href="#">Sub menu 2</a></li>
+                <li><a href="#">Sub menu 2</a></li>
+                <li><a href="#">Sub menu 2</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Menu 3</a>
+            <ul>
+                <li><a href="#">Sub menu 3</a></li>
+                <li><a href="#">Sub menu 3</a></li>
+                <li><a href="#">Sub menu 3</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Menu 4</a>
+            <ul>
+                <li><a href="#">Sub Menu 4</a></li>
+                <li><a href="#">Sub Menu 4</a></li>
+                <li><a href="#">Sub Menu 4</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <a href="#">Menu 5</a>
+            <ul>
+                <li><a href="#">Sub Menu 5</a></li>
+                <li><a href="#">Sub Menu 5</a></li>
+                <li><a href="#">Sub Menu 5</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

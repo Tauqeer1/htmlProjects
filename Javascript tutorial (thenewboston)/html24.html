@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Javascript (Form validation 2)</title>
+    <script type="text/javascript">
+        function validate(){
+            if(document.firstForm.username.checked){
+                alert("Please fill all the required fields");
+            }
+            else if(document.firstForm.password.checked){
+                alert("All fields are required");
+            }
+            else{
+                alert("Form validate");
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="firstForm">
+        Username : <input type="text" name="username" />
+        Password : <input type="password" name="password" />
+                   <input type="button" value="Click me" onclick="validate()">
+    </form>
+</body>
+</html>

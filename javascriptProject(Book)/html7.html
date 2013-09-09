@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 3 (Functions)</title>
+    <script type="text/javascript">
+
+        //Example 1
+        function printToday(){
+            var today = new Date();
+            document.write(today.toDateString()+'<br/>');
+        }
+        printToday();
+        printToday();
+        var i = 0;
+        for(i=0;i<5;i++){
+            printToday();
+        }
+
+        //Example 2
+        var message = prompt('Enter your message','');
+        function printMessage(message){
+                  alert(message);
+        }
+        printMessage(message);
+
+        //Example 3
+        var message1 = prompt('Enter first message','');
+        var message2 = prompt('Enter second message','');
+        printMessages(message1,message2);
+        function printMessages(message1,message2){
+                  alert(message1);
+                  alert(message2);
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 4 (Jquery)</title>
+    <script src="jquery-2.0.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('html').ondblclick(function(){
+                alert('Ouch');
+            }); //End double click
+            $('a').onmouseover(function(){
+                 var message = '<p>You moused over a link</p>';
+                 $('.main').append(message);
+            }); //End mouse over
+            $('#button').click(function(){
+                 $(this).val('Stop that!');
+            }); //End click function
+        }); //End ready function
+    </script>
+    <script>
+        document.write("Tauqeer ahmed shakir" ,"\n");
+        document.write('Tauqeer');
+    </script>
+</head>
+<body>
+
+</body>
+</html>
