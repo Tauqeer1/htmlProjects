@@ -7,5 +7,5 @@
  */
 
 exports.myfunction=function(req,res){
-    res.send('Hello this is my own file');
-}
+    res.render('firstpage',{title:'first page'});
+};
