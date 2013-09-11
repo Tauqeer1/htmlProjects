@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 10 (5)</title>
+    <style>
+        h1,h2,h3{
+            background-color: gray;
+            color: white;
+        }
+        hgroup > h1{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        hgroup > h2{
+            background-color: gray;
+            color: red;
+            font-size: 1em;
+            margin-top: 0px;
+            margin-bottom: 2px;
+        }
+        body > header * {
+            background-color: transparent;
+            color: black;
+        }
+        body > footer *{
+            background-color: transparent;
+            color: black;
+        }
+        body > section,body>section>section,
+        body>section>section>section{
+            margin-left: 10px;
+        }
+        body>header,body>footer{
+            border: medium solid blue;
+            padding-left: 5px;
+            margin: 10px 0 10px 0;
+        }
+        body>nav{
+            text-align: center;
+            padding: 2px;
+            border: dashed thick brown;
+        }
+        body>nav>a{
+            padding: 2px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>Things I like</h1>
+            <h2>By Tauqeer</h2>
+        </hgroup>
+        <nav>
+            <h1>Contents</h1>
+            <ul>
+                <li><a href="#fruitsilike">Fruits I like</a></li>
+                <ul>
+                    <li><a href="#morefruit">Additional fruits</a></li>
+                </ul>
+                <li><a href="#activitiesilike">Activities I Like</a></li>
+                <ul>
+                    <li><a href="#tritypes">Kinds of triathlon</a></li>
+                    <li><a href="#mytri">The Kind of triathlon I am aiming for</a></li>
+                </ul>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <header>
+            <hgroup>
+                <h1 id="fruitsilike">
+                    Fruits I like
+                </h1>
+                <h2>How i Love to learn citrus</h2>
+            </hgroup>
+        </header>
+        I like apples and oranges.
+        <section>
+            <h1 id="morefruits">Additional Fruits</h1>
+            I also like bananas,apples,grapes and mangoes.
+            <section>
+                <h1>
+                    More information
+                </h1>
+                You can see other fruits here.
+            </section>
+        </section>
+    </section>
+<section>
+    <header>
+        <h1 id="activitiesilike">Activities I like</h1>
+    </header>
+    <section>
+        <p>
+            I like to swim, cycle and run. I am training for my triathlon,but it is hard to work.
+        </p>
+        <h1 id="tritypes">Kinds of Triathlon</h1>
+        There are different kinds of triathlon - sprint,Olympic and so on.
+        <section>
+            <h1 id="mytri">
+                The kind of triathlon I am aiming for.
+
+            </h1>
+            I am aiming for olympics,which consist of the following.
+            <ol>
+                <li>1.5 km swim</li>
+                <li>40km cycle</li>
+                <li>10km run</li>
+            </ol>
+            </section>
+        </section>
+</section>
+<nav>
+    More information:
+    <a href="">More about fruits</a>
+    <a href="">Mor about Triathlon</a>
+</nav>
+<footer id="mainfooter">
+    &#169;2013 Tauqeer Ahmed Shakir. <a href="https://www.facebook.com/tauqeer.a.shakir">Visit Facebook</a>
+</footer>
+</body>
+</html>
