@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chapter 10(6)</title>
+    <style>
+        h1,h2,h3,article>footer{
+            background-color: grey;
+            color: white;
+        }
+        hgroup > h1{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        hgroup > h2 {
+            background-color: grey;
+            color: white;
+            font-size: 1em;
+            margin-top: 0px;
+            margin-bottom: 2px;
+        }
+        body > header *,body>footer *{
+            background: transparent;
+            color: black;
+        }
+        article{
+            border: thin black solid;
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        article > footer{
+            padding: 5px;
+            margin: 5px;
+            text-align: center;
+        }
+        article > footer > nav > a{
+            color: green;
+        }
+        body> article>section,body>article>section>section{
+            margin-left: 10px;
+        }
+        body > header,body>footer{
+            border: medium solid yellow;
+            padding-left: 5px;
+            margin: 10px 0 10px 0;
+        }
+        body > nav{
+            text-align: center;
+            padding: 2px;
+            border: dashed thin black;
+        }
+        body > nav >a{
+            padding:  2px;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <hgroup>
+            <h1>Things I like</h1>
+            <h2>By Tauqeer Ahmed</h2>
+        </hgroup>
+        <nav>
+            <h1>Contents</h1>
+            <ul>
+                <li><a href="#fruitsilike">Fruits I like</a></li>
+                <li><a href="#activitiesilike">Activities I like</a></li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <header>
+            <hgroup>
+                <h1 id="fruitsilike">Fruits I like</h1>
+                <h2>How i learned to love citrus</h2>
+            </hgroup>
+        </header>
+        I like apple and oranges.
+        <section>
+            <h1 id="morefruit">Additional fruits</h1>
+            I also like bananas, mangoes, cherries, apricots, plums,
+            peaches and grapes
+            <section>
+                <h1>More information</h1>
+                More information
+            </section>
+        </section>
+        <footer>
+            <nav>
+                More information:
+                <a href="#">Learn more about fruits</a>
+            </nav>
+        </footer>
+    </article>
+    <article>
+        <header>
+            <hgroup>
+                <h1 id="activitiesilike">Activities I like</h1>
+                <h2>It hurts, but I keep doing it</h2>
+            </hgroup>
+        </header>
+        <section>
+            <p>I like to swim, cycle and run. I am in training for my first
+                triathlon, but it is hard work.</p>
+            <h1 id="tritypes">Kinds of Triathlon</h1>
+            There are different kinds of triathlon - sprint, Olympic and so on.
+            <section>
+                <h1 id="mytri">The kind of triathlon I am aiming for</h1>
+                I am aiming for Olympic, which consists of the following:
+                <ol>
+                    <li>1.5km swim</li>
+                    <li>40km cycle</li>
+                    <li>10km run</li>
+                </ol>
+            </section>
+        </section>
+        <footer>
+            <nav>
+                More Information:
+                <a href="http://triathlon.org">Learn More About Triathlons</a>
+            </nav>
+        </footer>
+    </article>
+    <footer id="mainFooter">
+        &#169;2011, Adam Freeman. <a href="http://apress.com">Visit Apress</a>
+    </footer>
+</body>
+</html>
