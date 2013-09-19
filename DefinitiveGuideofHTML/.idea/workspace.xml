@@ -54,6 +54,10 @@
     <file path="/Chapter13(6).html" changelist="b68e3879-ea36-4548-a35c-7c75ae696ad4" time="1379535899148" ignored="false" />
     <file path="/Chapter13(7).html" changelist="b68e3879-ea36-4548-a35c-7c75ae696ad4" time="1379536057306" ignored="false" />
     <file path="/Chapter13(8).html" changelist="b68e3879-ea36-4548-a35c-7c75ae696ad4" time="1379536303865" ignored="false" />
+    <file path="/Chapter13(9).html" changelist="b68e3879-ea36-4548-a35c-7c75ae696ad4" time="1379624023147" ignored="false" />
+    <file path="/Chapter13(10).html" changelist="b68e3879-ea36-4548-a35c-7c75ae696ad4" time="1379624479165" ignored="false" />
+    <file path="/Chapter13(11).html" changelist="b68e3879-ea36-4548-a35c-7c75ae696ad4" time="1379625628010" ignored="false" />
+    <file path="/Chapter13(12).html" changelist="b68e3879-ea36-4548-a35c-7c75ae696ad4" time="1379626303303" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,46 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Chapter12(9).html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12(9).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="54" selection-start="479" selection-end="479" vertical-scroll-proportion="-10.192307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chapter12(10).html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter12(10).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="26" selection-start="434" selection-end="434" vertical-scroll-proportion="-20.153847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chapter13(1).html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter13(1).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="13" selection-start="86" selection-end="471" vertical-scroll-proportion="-16.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Chapter13(2).html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter13(2).html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="30" selection-start="0" selection-end="618" vertical-scroll-proportion="-12.230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Chapter13(3).html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter13(3).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="27" selection-start="0" selection-end="772" vertical-scroll-proportion="-20.153847">
+            <state line="30" column="27" selection-start="0" selection-end="772" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,7 +89,7 @@
       <file leaf-file-name="Chapter13(4).html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter13(4).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="0" selection-end="602" vertical-scroll-proportion="-20.461538">
+            <state line="14" column="24" selection-start="0" selection-end="602" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -130,7 +98,7 @@
       <file leaf-file-name="Chapter13(5).html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter13(5).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="66" selection-start="0" selection-end="634" vertical-scroll-proportion="-18.615385">
+            <state line="14" column="66" selection-start="0" selection-end="634" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,7 +107,7 @@
       <file leaf-file-name="Chapter13(6).html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter13(6).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="60" selection-start="0" selection-end="828" vertical-scroll-proportion="-15.0">
+            <state line="25" column="60" selection-start="0" selection-end="828" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,16 +116,52 @@
       <file leaf-file-name="Chapter13(7).html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter13(7).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="96" selection-start="0" selection-end="831" vertical-scroll-proportion="-3.3846154">
+            <state line="25" column="96" selection-start="0" selection-end="831" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chapter13(8).html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Chapter13(8).html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter13(8).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="57" selection-end="57" vertical-scroll-proportion="0.114285715">
+            <state line="6" column="47" selection-start="0" selection-end="970" vertical-scroll-proportion="14.192307">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chapter13(9).html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13(9).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="28" selection-start="0" selection-end="1054" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chapter13(10).html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13(10).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="28" selection-start="0" selection-end="861" vertical-scroll-proportion="-1.8461539">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chapter13(11).html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter13(11).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="66" selection-start="0" selection-end="1264" vertical-scroll-proportion="-21.692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chapter13(12).html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter13(12).html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="48" selection-start="131" selection-end="131" vertical-scroll-proportion="0.25714287">
               <folding />
             </state>
           </provider>
@@ -173,10 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Chapter12(3).html" />
-        <option value="$PROJECT_DIR$/Chapter12(4).html" />
-        <option value="$PROJECT_DIR$/Chapter12(5).html" />
-        <option value="$PROJECT_DIR$/Chapter12(6).html" />
         <option value="$PROJECT_DIR$/Chapter12(7).html" />
         <option value="$PROJECT_DIR$/Chapter12(8).html" />
         <option value="$PROJECT_DIR$/Chapter12(9).html" />
@@ -189,6 +189,10 @@
         <option value="$PROJECT_DIR$/Chapter13(6).html" />
         <option value="$PROJECT_DIR$/Chapter13(7).html" />
         <option value="$PROJECT_DIR$/Chapter13(8).html" />
+        <option value="$PROJECT_DIR$/Chapter13(9).html" />
+        <option value="$PROJECT_DIR$/Chapter13(10).html" />
+        <option value="$PROJECT_DIR$/Chapter13(11).html" />
+        <option value="$PROJECT_DIR$/Chapter13(12).html" />
       </list>
     </option>
   </component>
@@ -363,93 +367,63 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Chapter12(4).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="43" selection-start="0" selection-end="340" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12(5).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="52" selection-start="0" selection-end="337" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12(6).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="0" selection-end="370" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter12(7).html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="101" selection-end="101" vertical-scroll-proportion="-14.269231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12(8).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="-14.269231">
-          <folding />
-        </state>
+        <state line="7" column="18" selection-start="174" selection-end="174" vertical-scroll-proportion="-14.269231" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12(9).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="54" selection-start="479" selection-end="479" vertical-scroll-proportion="-10.192307">
+        <state line="15" column="54" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter12(10).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="26" selection-start="434" selection-end="434" vertical-scroll-proportion="-20.153847">
+        <state line="15" column="26" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(1).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="86" selection-end="471" vertical-scroll-proportion="-16.076923">
+        <state line="18" column="13" selection-start="86" selection-end="471" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(2).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="30" selection-start="0" selection-end="618" vertical-scroll-proportion="-12.230769">
+        <state line="23" column="30" selection-start="0" selection-end="618" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(3).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="27" selection-start="0" selection-end="772" vertical-scroll-proportion="-20.153847">
+        <state line="30" column="27" selection-start="0" selection-end="772" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(4).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="0" selection-end="602" vertical-scroll-proportion="-20.461538">
+        <state line="14" column="24" selection-start="0" selection-end="602" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(5).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="66" selection-start="0" selection-end="634" vertical-scroll-proportion="-18.615385">
+        <state line="14" column="66" selection-start="0" selection-end="634" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(6).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="60" selection-start="0" selection-end="828" vertical-scroll-proportion="-15.0">
+        <state line="25" column="60" selection-start="0" selection-end="828" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -463,14 +437,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(7).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="96" selection-start="0" selection-end="831" vertical-scroll-proportion="-3.3846154">
+        <state line="25" column="96" selection-start="0" selection-end="831" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Chapter13(8).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="57" selection-end="57" vertical-scroll-proportion="0.114285715">
+        <state line="6" column="47" selection-start="0" selection-end="970" vertical-scroll-proportion="14.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13(9).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="0" selection-end="1054" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13(10).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="28" selection-start="0" selection-end="861" vertical-scroll-proportion="-1.8461539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13(11).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="66" selection-start="0" selection-end="1264" vertical-scroll-proportion="-21.692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter13(12).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="48" selection-start="131" selection-end="131" vertical-scroll-proportion="0.25714287">
           <folding />
         </state>
       </provider>
